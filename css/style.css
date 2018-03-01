@@ -57,7 +57,22 @@ input[type="radio"].visually-hidden {
 	line-height: 18px;
 	font-weight: 700;
 	color: #ffffff;
+	border-bottom: 1px solid #a5baae
+
 }
 .navigation-item:not(:last-child) a{
 	margin-right: 30px;
+}
+.navigation-item > a:hover {
+	color: #333333;
+	background-color: #f7f6f3;
+	border-radius: 15px;
+	padding: 5px;
+	border: none;
+}
+.navigation-item:not(:last-child) a:hover{
+	margin-right: 20px;
+}
+.sub-menu-title {
+	
 }
