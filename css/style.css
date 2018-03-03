@@ -71,10 +71,10 @@ input[type="radio"].visually-hidden {
 	margin-right: 30px;
 }
 .navigation-item:hover > a{
+	padding: 5px;
 	color: #333333;
 	background-color: #f7f6f3;
 	border-radius: 15px;
-	padding: 5px;
 	border: none;
 }
 .navigation-item:not(:last-child):hover a {
@@ -95,7 +95,7 @@ input[type="radio"].visually-hidden {
 .my-navigation .sub-menu {
 	display: none;
 	position: absolute;
-    left: -20px;
+    left: -18px;
     top: 30px;
 	margin: 0;
 	padding: 13px 0;
