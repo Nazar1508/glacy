@@ -834,3 +834,26 @@ input[type="radio"].visually-hidden {
 	background-image: linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
 	box-shadow: inset 0px 2px 0px 0px #ac1000;
 }
+.contact-details {
+	margin-top: 40px;
+}
+.contact-details .container {
+	padding: 0;
+	position: relative;
+}
+.contact-details .map {
+	min-height: 430px;
+	background-image: url(../img/map.jpg);
+	background-size: cover;
+}
+.contact-details .details-feedback {
+	position: absolute;
+	top: 40px;
+	right: 20px;
+	width: 305px;
+	min-height: 307px;
+	background-color: #ffffff;
+	padding: 30px 25px 28px 25px;
+	box-sizing: border-box;
+	border-radius: 15px;
+}
