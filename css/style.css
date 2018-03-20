@@ -317,7 +317,7 @@ input[type="radio"].visually-hidden {
 .authorization button:hover {
 	background-image: none;
 	background-color: #ed715f;
-	box-shadow: inset 0px -2px 0px 0px #ac1000;
+	box-shadow: 0px 2px 0px 0px #ac1000;
 }
 .authorization button:active {
 	background-image: linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
@@ -489,7 +489,7 @@ input[type="radio"].visually-hidden {
 .slider-item a:hover {
 	background-image: none;
 	background-color: #ed715f;
-	box-shadow: inset 0px -2px 0px 0px #ac1000;
+	box-shadow: 0px 2px 0px 0px #ac1000;
 }
 .slider-item a:active {
 	background-image: linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
@@ -564,7 +564,7 @@ input[type="radio"].visually-hidden {
 .action-item a:hover {
 	background-image: none;
 	background-color: #ed715f;
-	box-shadow: inset 0px -2px 0px 0px #ac1000;
+	box-shadow: 0px 2px 0px 0px #ac1000;
 }
 .action-item a:active {
 	background-image: linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
@@ -652,7 +652,7 @@ input[type="radio"].visually-hidden {
 .ice-item-container .fast-browsing:hover {
 	background-image: none;
 	background-color: #ed715f;
-	box-shadow: inset 0px -2px 0px 0px #ac1000;
+	box-shadow: 0px 2px 0px 0px #ac1000;
 }
 .ice-item-container .fast-browsing:active {
 	background-image: linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
@@ -828,7 +828,7 @@ input[type="radio"].visually-hidden {
 .your-email button:hover {
 	background-image: none;
 	background-color: #ed715f;
-	box-shadow: inset 0px -2px 0px 0px #ac1000;
+	box-shadow: 0px 2px 0px 0px #ac1000;
 }
 .your-email button:active {
 	background-image: linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
@@ -856,4 +856,73 @@ input[type="radio"].visually-hidden {
 	padding: 30px 25px 28px 25px;
 	box-sizing: border-box;
 	border-radius: 15px;
+}
+.details-feedback p {
+	margin: 0;
+}
+.details-feedback h3 {
+	margin: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.details-feedback b {
+	display: block;
+	margin-top: 8px;
+	font-size: 18px;
+	line-height: 24px;
+}
+.details-feedback .phone {
+	margin-top: 15px;
+}
+.our-address h3 {
+	padding-right: 105px;
+}
+.phone span {
+	display: block;
+	margin-top: 8px;
+	font-size: 14px;
+	line-height: 22px;
+}
+.details-feedback button {
+	margin-top: 13px;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #ffffff;
+	width: 252px;
+	padding: 10px 0;
+	background-image: linear-gradient(90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+    box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+    border-radius: 25px;
+}
+.details-feedback button:hover {
+	background-image: none;
+	background-color: #ed715f;
+	box-shadow:  0px 2px 0px 0px #ac1000;
+}
+.details-feedback button:active {
+	background-image: linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);
+	box-shadow: inset 0px 2px 0px 0px #ac1000;
+}
+.my-footer .container {
+	display: flex;
+	padding-top: 35px;
+	padding-bottom: 25px;
+}
+.social-footer .social-list {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 185px;
+}
+.social-list .social-item {
+	width: 39px;
+	height: 39px;
+	border: 3px solid rgba(255, 255, 255, 0.5);
+	box-sizing: border-box;
+	border-radius: 50%;
+	cursor: pointer;
 }
