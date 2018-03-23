@@ -351,7 +351,7 @@ input[type="radio"].visually-hidden {
 .my-header .basket {
 	margin-left: 10px;
 }
-.basket button {
+.basket .basket-button {
 	position: relative;
 	min-width: 117px;
 	padding: 8px 0;
@@ -363,7 +363,7 @@ input[type="radio"].visually-hidden {
 	color: #ffffff;
 	line-height: 16px;
 }
-.basket:hover button {
+.basket:hover .basket-button {
 	background-color: #ffffff;
 	color: #000000;
 }
@@ -1144,5 +1144,65 @@ input[type="radio"].visually-hidden {
 	transform: rotate(45deg);
 }
 .feedback-form .feedback-popup-close::after {
+	transform: rotate(-45deg);
+}
+
+/*Styles for catalog.html*/
+.catalog .header-logo:hover {
+	opacity: 0.8;
+}
+.catalog .header-logo:active {
+	opacity: 0.7;
+}
+.catalog .basket {
+	position: relative;
+}
+.catalog .full-basket {
+	position: relative;
+	min-width: 117px;
+	padding: 8px 0;
+	border-radius: 20px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+	color: #000000;
+	background-color: #ffffff;
+	padding-left: 18px;
+}
+.basket .selected-goods {
+	position: absolute;
+	top: 36px;
+	right: 0;
+	padding: 20px 14px 20px 21px;
+	width: 540px;
+	min-height: 242px;
+	background-color: #f8f7f4;
+	box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+}
+.selected-goods .selected-goods-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.catalog .delete-button {
+	position: relative;
+	width: 11px;
+	height: 11px;
+}
+.selected-goods-list .delete-button::before,
+.selected-goods-list .delete-button::after {
+	content: "";
+	position: absolute;
+	top: 4.5px;
+	left: -1px;
+	width: 13.5px;
+	height: 2px;
+	background-color: #231f20;
+}
+.selected-goods-list .delete-button::before {
+	transform: rotate(45deg);
+}
+.selected-goods-list .delete-button::after {
 	transform: rotate(-45deg);
 }
