@@ -1148,6 +1148,9 @@ input[type="radio"].visually-hidden {
 }
 
 /*Styles for catalog.html*/
+.catalog {
+	color: #ffffff;
+}
 .catalog .header-logo:hover {
 	opacity: 0.8;
 }
@@ -1353,4 +1356,40 @@ input[type="radio"].visually-hidden {
 }
 .breadcrumbs-item .active {
 	border-bottom: none;
+}
+.site-wrapper .filter {
+	margin-top: 10px;
+}
+.filter h1 {
+	margin: 0;
+	font-size: 35px;
+	line-height: 41px;
+}
+.filter .filter-form {
+	width: 860px;
+}
+.filter-form fieldset {
+	padding: 0;
+	box-sizing: border-box;
+}
+.filter-form .filter-top-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+} 
+.filter-top-list .filter-top-item {
+	min-height: 57px;
+}
+.filter-top-item select {
+	width: 192px;
+	font-size: 16px;
+	line-height: 18px;
+	min-height: 31px; 
+}
+.filter-top-item h3 {
+	margin: 0;
+	margin-left: 17px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 16px;
 }
