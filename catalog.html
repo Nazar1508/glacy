@@ -146,6 +146,7 @@
 		</header>
 		<section class="breadcrumbs">
 			<div class="container">
+				<h2 class="visually-hidden">Дополнительная навигация</h2>
 				<ul class="breadcrumbs-list">
 					<li class="breadcrumbs-item">
 						<a href="index.html">Главная</a>
@@ -161,31 +162,90 @@
 		</section>
 		<section class="filter">
 			<div class="container">
-				<h1>Сливочное мороженое</h1>
+				<h2>Сливочное мороженое</h2>
 				<form class="filter-form" action="https://echo.htmlacademy.ru" method="get">
-					<fieldset>
+					<fieldset class="filter-top">
 						<ul class="filter-top-list">
 							<li class="filter-top-item">
 								<div class="sorting">
 									<h3>Сортировка:</h3>
-									<select>
-										<option>по популярности</option>
-										<option>сначала недорогие</option>
-										<option>сначала дорогие</option>
-										<option>по жирности</option>
-									</select>
+									<div class="sorting-select">
+										<select>
+											<option>по популярности</option>
+											<option>сначала недорогие</option>
+											<option>сначала дорогие</option>
+											<option>по жирности</option>
+										</select>
+									</div>
 								</div>
 							</li>
 							<li class="filter-top-item">
-								
+								<h3>Цена: 100 руб. – 500 руб.</h3>
+								<div class="range">
+									<p class="line"></p>
+									<p class="interval-line"></p>
+									<p class="range-left">
+										<img src="img/filter-button.png" width="20" height="22" alt="Левый ползунок">
+									</p>
+									<p class="range-right">
+										<img src="img/filter-button.png" width="20" height="22" alt="Правый ползунок">
+									</p>
+								</div>
 							</li>
 							<li class="filter-top-item">
-								
+								<h3>Жирность:</h3>
+								<div class="fatness-percent">
+									<p>
+										<input class="visually-hidden filter-input-radio" type="radio" name="fatness" id="min-fat">
+										<label for="min-fat">0%</label>
+									</p>
+									<p>
+										<input class="visually-hidden filter-input-radio" type="radio" name="fatness" id="small-fat" checked="" disabled="">
+										<label for="small-fat">до 10%</label>
+									</p>
+									<p>
+										<input class="visually-hidden filter-input-radio" type="radio" name="fatness" id="medium-fat">
+										<label for="medium-fat">до 30%</label>
+									</p>
+									<p>
+										<input class="visually-hidden filter-input-radio" type="radio" name="fatness" id="max-fat">
+										<label for="max-fat">выше 30%</label>
+									</p>
+								</div>
 							</li>
 						</ul>
 					</fieldset>
-					<fieldset>
-						
+					<fieldset class="filter-bottom">
+						<div class="filter-bottom-wrapper">
+							<div class="ice-filler">
+								<div class="ice-filler-wpapper">
+									<h3>Наполнители:</h3>
+									<div class="ice-filler-item">
+										<p>
+											<input class="visually-hidden filter-input-checkbox" type="checkbox" name="chocolate" id="chocolate-filter" checked="" disabled="">
+											<label for="chocolate-filter">шоколадные</label>
+										</p>
+										<p>
+											<input class="visually-hidden filter-input-checkbox" type="checkbox" name="sugar-powders" id="sugar-powders-filter" checked="">
+											<label for="sugar-powders-filter">сахарные присыпки</label>
+										</p>
+										<p>
+											<input class="visually-hidden filter-input-checkbox" type="checkbox" name="fruits" id="fruits-filter">
+											<label for="fruits-filter">фрукты</label>
+										</p>
+										<p>
+											<input class="visually-hidden filter-input-checkbox" type="checkbox" name="syrup" id="syrup-filter">
+											<label for="syrup-filter">сиропы</label>
+										</p>
+										<p>
+											<input class="visually-hidden filter-input-checkbox" type="checkbox" name="jams" id="jams-filter">
+											<label for="jams-filter">джемы</label>
+										</p>
+									</div>
+								</div>
+							</div>
+							<button class="submit-button" type="submit">Применить</button>
+						</div>
 					</fieldset>
 				</form>
 			</div>
